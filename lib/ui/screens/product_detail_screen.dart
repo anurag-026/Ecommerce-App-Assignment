@@ -4,7 +4,7 @@ import '../../data/models/product_model.dart';
 class ProductDetailScreen extends StatefulWidget {
   final Product product;
 
-  ProductDetailScreen({super.key, required this.product});
+  const ProductDetailScreen({super.key, required this.product});
 
   @override
   _ProductDetailScreenState createState() => _ProductDetailScreenState();
